@@ -1,0 +1,33 @@
+.area{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .area:hover{
+        background-color: #1f6428;
+    }
+#game{
+    display: grid;
+    grid-template-columns: repeat(8, 0fr);
+    justify-content: center;
+}
+.greenshashka{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+    .greenshashka:hover{
+         background-color: #195020!important;
+    }
+        
+
+.blueshashka{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+    .blueshashka:hover{
+        background-color: #18384b!important;
+    }
